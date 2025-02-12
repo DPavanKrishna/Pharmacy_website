@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2Z PHARMACY</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img width="100px" src="imgs/logo.jpg" class="" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><img width="20px" src="imgs/shopping-cart.png" class="" alt=""></a></li>
+                <li><a href="account.html"><img width="30px" src="./imgs/account.png" ></a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <tr id="cart-item-1">
+                    <td><a href="#"><i class="far fa-times-circle remove-item"></i></a></td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="totalAmount">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign up for Updates</h4>
+            <p style="color: black;">Get instant email updates about our Pharmacy<p>
+        </div>
+        <div class="form" onclick="location.href='login.html'">
+            <input type="text" placeholder="Your email Address">
+            <button class="normal">Sign up</button>
+        </div>
+</section>
+
+    
+    <footer class="section-p1">
+        <div class="col" >
+            <img width="100px" src="imgs/logo.jpg" class="logo">
+            <h4>Contact</h4>
+            <p style="color: black;font-weight: bold;"><strong>Address:</strong>IDB Bhaban, E/8-A, Dhaka 1207</p>
+            <p style="color: black;font-weight: bold;"><strong>Phone:</strong>+88 01537215709</p>
+            <p style="color: black;font-weight: bold;"><strong>Hours:</strong>10:00AM - 5:00PM Sun-Fri</p>
+            <div class="follow">
+                <h4>Follow</h4>
+                <div class="icon">
+                    <i onclick="location.href='https://in.search.yahoo.com/search?fr=mcafee&type=E211IN714G0&p=facebook';" class="fab fa-facebook-f"></i>
+                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=twitter&cvid=ae67788641b44ff5ada6c23b19766720&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDI1MTVqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-twitter"></i>
+                    <i onclick="location.href='https://www.bing.com/search?q=instagram+login&cvid=8f96a03ccd134c3eb8ddf98de388ca43&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg8MgYIARBFGDkyBggCEEUYOzIGCAMQRRg7MgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg1OTQwajBqMagCALACAA&FORM=ANAB01&PC=U531';" class="fab fa-instagram"></i>
+                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=pinterest&cvid=2eba73b5aff442238b2d7f9245aab3b1&gs_lcrp=EgZjaHJvbWUqBggEEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAuGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDM3MTNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-pinterest"></i>
+                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=youtube&cvid=19cb7645bf6d4d7abd30f0bfd4166528&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg8MgYIARAuGEAyBggCEEUYOTIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxBFGDwyBggIEEUYPNIBCDIzNjNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="color: black;font-weight: bold;">
+            <h4>About</h4>
+            <a href="about.html">About us</a>
+            <a href="cart.html">Delivery information</a>
+            <a href="about.html">Privacy Policy</a>
+            <a href="about.html">Terms $ Conditions</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+        <div class="col" style="color: black;font-weight: bold;">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="cart.html">My Wishlist</a>
+            <a href="cart.html">Track my order</a>
+            <a href="contact.html">Help </a>
+        </div>
+        <div class="col install" style="color: black;font-weight: bold;">
+            <h4 >Install App</h4>
+            <p style="color: black;font-weight: bold;">From App store or Google play</p>
+            <div>
+                <img width="200px" height="30px" src="imgs/features/Google-Play-App.png" alt="">
+                <img src="" alt="">
+            </div>
+            <p style="color: black;font-weight: bold;">Secured Payment Gateway</p>
+            <img src="" alt="">
+        </div>
+        
+    </footer>
+    <div class="myfooter2" style="background-color: #DCDCDC ;width:100vw;height:50px ;display: flex;justify-content:center;align-items: center;">
+        <div class="copyright" >
+            <p style="color: black;font-weight: bold;">@ 2024 , A2Z Services -- Pharmacy</p>
+        </div>
+        </div>
+    <script src="script.js"></script>
+    <script>
+      
+        document.addEventListener("DOMContentLoaded", function () {
+    var cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+    var cartItemsTableBody = document.getElementById("cart-items");
+
+    cartItems.forEach(function (item, index) {
+        var newRow = document.createElement("tr");
+        newRow.innerHTML = `
+            <td><i class="far fa-times-circle remove-item" data-index="${index}"></i></td>
+            <td><img src="imgs/products/Napa.jpeg" width="50px" alt="Product Image"></td>
+            <td>${item.name}</td>
+            <td>${item.price}tk</td>
+            <td>${item.quantity}</td>
+            <td>${item.subtotal}tk</td>
+        `;
+        cartItemsTableBody.appendChild(newRow);
+    });
+
+ 
+    cartItemsTableBody.addEventListener("click", function (event) {
+        if (event.target.classList.contains("remove-item")) {
+            var index = event.target.getAttribute("data-index");
+    
+            cartItems.splice(index, 1);
+     
+            localStorage.setItem("cartItems", JSON.stringify(cartItems));
+   
+            event.target.closest("tr").remove();
+        }
+    });
+});
+
+    </script>
+</body>
+</html>
