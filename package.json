@@ -6,7 +6,8 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "serve": "node server.js"
   },
   "name": "pharmacywebsite-html-css-nodejs-55061d500349a6243da213461dbe9e4cc25fc848",
   "version": "1.0.0",

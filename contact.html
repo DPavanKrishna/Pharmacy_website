@@ -1,110 +1,155 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A2Z PHARMACY</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | A2Z Pharmacy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <section id="header">
-        <a href="#"><img width="100px" src="imgs/logo.jpg" class="" alt=""></a>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span><i class="fas fa-headset"></i> 24/7 Licensed Pharmacist Helpline</span>
+    <span class="badge">CALL NOW</span>
+  </div>
+
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo-container">
+      
+    </a>
+    
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html"><i class="fas fa-house"></i> Home</a></li>
+        <li><a href="Shop.html"><i class="fas fa-store"></i> Shop</a></li>         
+        <li><a href="about.html"><i class="fas fa-circle-info"></i> About</a></li>
+        <li><a class="active" href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li>
+          <a href="cart.html" class="cart-icon-wrapper">
+            <i class="fas fa-bag-shopping" style="font-size: 1.2rem;"></i>
+            <span class="cart-badge">0</span>
+          </a>
+        </li>
+        <li><a href="account.html"><i class="fas fa-circle-user" style="font-size: 1.2rem;"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section class="section-p1" style="background: linear-gradient(135deg, #F0FDFA 0%, #E0F2FE 100%); text-align: center;">
+    <div class="section-title" style="margin-bottom: 0;">
+      <h2>Get In Touch With Our Pharmacists</h2>
+      <p>Have questions about dosage, prescription upload, or order status? We are here 24/7.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info -->
+  <section class="section-p1" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px;">
+    
+    <div style="background: var(--surface); padding: 36px; border-radius: var(--radius-md); border: 1px solid var(--border); box-shadow: var(--shadow-sm);">
+      <h3 style="margin-bottom: 24px; color: var(--text-heading);"><i class="fas fa-paper-plane" style="color: var(--primary);"></i> Send Us a Message</h3>
+      
+      <form onsubmit="event.preventDefault(); showToast('Thank you! Our pharmacist team will respond within 30 minutes.'); this.reset();">
+        <div style="margin-bottom: 16px;">
+          <label style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; display: block;">Your Name *</label>
+          <input type="text" required placeholder="Enter full name">
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <label style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; display: block;">Phone / Email *</label>
+          <input type="text" required placeholder="Enter mobile or email address">
+        </div>
+
+        <div style="margin-bottom: 16px;">
+          <label style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; display: block;">Subject / Prescription Inquiry</label>
+          <input type="text" placeholder="e.g. Medicine Refill / Dosage Question">
+        </div>
+
+        <div style="margin-bottom: 24px;">
+          <label style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; display: block;">Message Details *</label>
+          <textarea rows="5" required placeholder="Describe your question or medicine requirements..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%;">
+          Send Message <i class="fas fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+
+    <!-- Contact Cards -->
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <div style="background: var(--surface); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border); display: flex; gap: 16px; align-items: center;">
+        <div style="width: 50px; height: 50px; background: var(--primary-light); color: var(--primary-dark); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; font-size: 1.3rem;">
+          <i class="fas fa-location-dot"></i>
+        </div>
         <div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Shop.html">Shop</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><img width="20px" src="imgs/shopping-cart.png" class="" alt=""></a></li>
-                <li><a href="account.html"><img width="30px" src="./imgs/account.png" ></a></li>
-            </ul>
+          <h4 style="margin-bottom: 4px;">Head Office & Pharmacy</h4>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">12, MG Road, Bengaluru</p>
         </div>
-    </section>
-    <section id="SecondCT">
+      </div>
 
-        <h2> </h2>
-
-        <p> </p>
-
-    </section>
-    <section class="section-p1">
-
-        <h2>Contact A2Z Pharmacy: Your Pathway to Health </h2>
-
-        <p>
-            Thank you for considering A2Z Pharmacy as your trusted healthcare partner. We value your inquiries, feedback, and concerns, and we encourage you to reach out to us. Our dedicated team is here to assist you in any way possible. Whether you have questions about our wide range of pharmaceutical products, need guidance on managing your prescriptions, or want to learn more about our health services, we are just a message away. Your health and well-being are our top priorities, and we are committed to providing you with exceptional customer service.
-
-            Feel free to contact us through the information provided below or by filling out the form on this page. Our knowledgeable staff is available to address your queries and provide you with the assistance you need. Your journey to better health starts here at A2Z Pharmacy. Thank you for considering us as your healthcare destination. We look forward to hearing from you and serving you with excellence, care, and compassion.
-        </p>
-        <button onclick="location.href='contactus.html'" style="width: 100px;height:30px;background-color:darkgrey;color:black;font-weight: bold;">Contact Us</button>
-
-    </section>
-    <section id="newsletter" class="section-p1">
-        <div class="newstext">
-            <h4>Sign up for Updates</h4>
-            <p style="color: black;">Get instant email updates about our Pharmacy<p>
+      <div style="background: var(--surface); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border); display: flex; gap: 16px; align-items: center;">
+        <div style="width: 50px; height: 50px; background: var(--secondary-light); color: var(--secondary); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; font-size: 1.3rem;">
+          <i class="fas fa-phone-volume"></i>
         </div>
-        <div class="form" onclick="location.href='login.html'">
-            <input type="text" placeholder="Your email Address">
-            <button class="normal">Sign up</button>
+        <div>
+          <h4 style="margin-bottom: 4px;">24/7 Emergency Order Line</h4>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">1800-000-0000 / 1800-000-1111</p>
         </div>
-</section>
+      </div>
 
+      <div style="background: var(--surface); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border); display: flex; gap: 16px; align-items: center;">
+        <div style="width: 50px; height: 50px; background: var(--accent-light); color: var(--accent); border-radius: var(--radius-full); display: flex; align-items: center; justify-content: center; font-size: 1.3rem;">
+          <i class="fas fa-clock"></i>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 4px;">Operating Hours</h4>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">Open 365 Days â€¢ 24 Hours Delivery</p>
+        </div>
+      </div>
+    </div>
 
-    <footer class="section-p1">
-        <div class="col" >
-            <img width="100px" src="imgs/logo.jpg" class="logo">
-            <h4>Contact</h4>
-            <p style="color: black;font-weight: bold;"><strong>Address:</strong>IDB Bhaban, E/8-A, Dhaka 1207</p>
-            <p style="color: black;font-weight: bold;"><strong>Phone:</strong>+88 01537215709</p>
-            <p style="color: black;font-weight: bold;"><strong>Hours:</strong>10:00AM - 5:00PM Sun-Fri</p>
-            <div class="follow">
-                <h4>Follow</h4>
-                <div class="icon">
-                    <i onclick="location.href='https://in.search.yahoo.com/search?fr=mcafee&type=E211IN714G0&p=facebook';" class="fab fa-facebook-f"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=twitter&cvid=ae67788641b44ff5ada6c23b19766720&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDI1MTVqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-twitter"></i>
-                    <i onclick="location.href='https://www.bing.com/search?q=instagram+login&cvid=8f96a03ccd134c3eb8ddf98de388ca43&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg8MgYIARBFGDkyBggCEEUYOzIGCAMQRRg7MgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg1OTQwajBqMagCALACAA&FORM=ANAB01&PC=U531';" class="fab fa-instagram"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=pinterest&cvid=2eba73b5aff442238b2d7f9245aab3b1&gs_lcrp=EgZjaHJvbWUqBggEEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAuGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDM3MTNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-pinterest"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=youtube&cvid=19cb7645bf6d4d7abd30f0bfd4166528&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg8MgYIARAuGEAyBggCEEUYOTIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxBFGDwyBggIEEUYPNIBCDIzNjNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-        <div class="col" style="color: black;font-weight: bold;">
-            <h4>About</h4>
-            <a href="about.html">About us</a>
-            <a href="cart.html">Delivery information</a>
-            <a href="about.html">Privacy Policy</a>
-            <a href="about.html">Terms $ Conditions</a>
-            <a href="contact.html">Contact us</a>
-        </div>
-        <div class="col" style="color: black;font-weight: bold;">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="cart.html">View Cart</a>
-            <a href="cart.html">My Wishlist</a>
-            <a href="cart.html">Track my order</a>
-            <a href="contact.html">Help </a>
-        </div>
-        <div class="col install" style="color: black;font-weight: bold;">
-            <h4 >Install App</h4>
-            <p style="color: black;font-weight: bold;">From App store or Google play</p>
-            <div>
-                <img width="200px" height="30px" src="imgs/features/Google-Play-App.png" alt="">
-                <img src="" alt="">
-            </div>
-            <p style="color: black;font-weight: bold;">Secured Payment Gateway</p>
-            <img src="" alt="">
-        </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <div class="logo-container" style="margin-bottom: 20px;">
         
-    </footer>
-    <div class="myfooter2" style="background-color: #DCDCDC ;width:100vw;height:50px ;display: flex;justify-content:center;align-items: center;">
-        <div class="copyright" >
-            <p style="color: black;font-weight: bold;">@ 2024 , A2Z Services -- Pharmacy</p>
-        </div>
-        </div>
-    <script src="script.js"></script>
+      </div>
+      <p><i class="fas fa-location-dot"></i> House 42, Road 11, Banani, Bengaluru</p>
+      <p><i class="fas fa-phone"></i> 1800-000-0000 (24/7 Helpline)</p>
+      <p><i class="fas fa-envelope"></i> support@a2zpharmacy.in</p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="Shop.html">Shop Catalog</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <div>
+      <h4>Customer Care</h4>
+      <a href="account.html">My Account</a>
+      <a href="cart.html">View Cart</a>
+      <a href="payment.html">Checkout & Payment</a>
+    </div>
+
+    <div class="copyright">
+      Â© 2026 A2Z PHARMACY. All Rights Reserved. Built with HTML5, CSS3, Vanilla JS & Express.
+    </div>
+  </footer>
+
 </body>
-</html>
+</html>
+
+
+
+

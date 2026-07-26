@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="shadow1">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#059669" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="320" height="240" rx="20" fill="url(#bg1)"/>
+  <!-- Medicine box -->
+  <rect x="85" y="30" width="150" height="130" rx="12" fill="url(#box1)" filter="url(#shadow1)"/>
+  <!-- Box stripe -->
+  <rect x="85" y="75" width="150" height="28" fill="rgba(255,255,255,0.15)"/>
+  <!-- Box cross -->
+  <rect x="148" y="42" width="8" height="28" rx="3" fill="white" opacity="0.9"/>
+  <rect x="136" y="54" width="32" height="8" rx="3" fill="white" opacity="0.9"/>
+  <!-- Pill shapes below box -->
+  <ellipse cx="120" cy="190" rx="28" ry="11" fill="#6EE7B7"/>
+  <ellipse cx="160" cy="195" rx="22" ry="9" fill="#A7F3D0"/>
+  <ellipse cx="200" cy="190" rx="25" ry="10" fill="#6EE7B7"/>
+  <!-- Brand label on box -->
+  <text x="160" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="11" fill="white" letter-spacing="0.5">GSK</text>
+  <text x="160" y="113" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="15" fill="white">NAPA EXTEND</text>
+  <text x="160" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-weight="500" font-size="9" fill="rgba(255,255,255,0.85)">Paracetamol BP 665mg</text>
+  <text x="160" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="10" fill="#BBF7D0">10 Tablets â€¢ Extended Release</text>
+  <!-- Price tag -->
+  <rect x="110" y="210" width="100" height="24" rx="12" fill="#047857"/>
+  <text x="160" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="13" fill="white">à§³24.00 / strip</text>
+</svg>
+

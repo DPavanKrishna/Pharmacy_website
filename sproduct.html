@@ -1,124 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A2Z PHARMACY</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script defer src="sproduct.js"></script>
-    <script defer src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crocin Advance 500mg Tablet | A2Z Pharmacy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <section id="header">
-        <a href="#"><img width="100px" src="imgs/logo.jpg" class="" alt=""></a>
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="Shop.html">Shop</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><img width="20px" src="imgs/shopping-cart.png" class="" alt=""></a></li>
-                <li><a href="account.html"><img width="30px" src="./imgs/account.png" ></a></li>
-            </ul>
-        </div>
-    </section>
 
-    <section id="prodetails" class="section-p1">
-        <div class="signle-pro-image">
-            <img src="imgs/products/Napa.jpeg" id="adImage" width="100%" id="mainImg">
-            <div class="small-img-group">
-                <div class="small-img-col">
-                    <img src="imgs/products/Napa.jpeg" width="100%" class="small-img" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="imgs/products/Napa.jpeg" width="100%" class="small-img" alt="">
-                </div>
-                <div class="small-img-col">
-                    <img src="imgs/products/Napa.jpeg" width="100%" class="small-img" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="single-pro-details">
-            <h6 id="prodts"> Beximco </h6>
-            <h4 class="tabletname">Napasss tablet</h4>
-            <h2 >MRP: <span id="adPrice">24</span>tk</h2>
-           
-            <input type="number" value="1" id="quantity">
-            <button  id="adCardButton" class="normal">Add to Cart</button>
-            <h4>Product details</h4>
-            <span>
-                Napa Extend Tablet contains Paracetamol, which is classified as an Analgesic and Antipyretic medication. It is commonly used to relieve mild to moderate pain, such as headaches, backaches, toothaches, severe nerve pain, sore throat, period pain, low back and leg pain, muscle, connective tissue, and joint pain. It can also help reduce fever and alleviate symptoms associated with cold or flu.
-                Before taking Napa Extend Tablet, it is important to inform your doctor about any existing liver or kidney problems or any known allergies. Caution should be exercised when using this medication in patients with alcohol-related liver problems to avoid the risk of liver damage.
-                In pregnant women, Napa Extend Tablet should only be used if specifically advised by the doctor. It can also be used by breastfeeding women. However, it is not recommended for use in children under 10 years of age, and caution should be exercised when using it in elderly patients.
-                If you experience any side effects or unusual effects while taking Napa Extend Tablet, it is recommended to consult your doctor for further guidance.
-                Please note that this is a general overview, and it is important to follow the specific instructions provided by your doctor or healthcare professional regarding the use of the Napa Extend Tablet.
-            </span>
-        </div>
-    </section>
-    <section id="newsletter" class="section-p1">
-        <div class="newstext">
-            <h4>Sign up for Updates</h4>
-            <p style="color: black;">Get instant email updates about our Pharmacy<p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email Address">
-            <button class="normal">Sign up</button>
-        </div>
-</section>
+  <div class="announcement-bar">
+    <span><i class="fas fa-truck-fast"></i> Express 24/7 Home Delivery</span>
+    <span class="badge">100% GENUINE MEDICINES</span>
+    <span><i class="fas fa-user-doctor"></i> Licensed Pharmacist Verified</span>
+  </div>
 
+  <header id="header">
+    <a href="index.html" class="logo-svg-inline">
+      <div class="logo-icon"></div>
+      <div class="logo-text-group">
+        <span class="logo-text-main">A2Z Pharmacy</span>
+        <span class="logo-text-sub">Healthcare & Wellness</span>
+      </div>
+    </a>
+    <nav>
+      <ul id="navbar">
+        <li><a href="index.html"><i class="fas fa-house"></i> <span>Home</span></a></li>
+        <li><a class="active" href="Shop.html"><i class="fas fa-store"></i> <span>Shop</span></a></li>
+        <li><a href="about.html"><i class="fas fa-circle-info"></i> <span>About</span></a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="cart.html" class="cart-icon-wrapper"><i class="fas fa-bag-shopping" style="font-size:1.1rem;"></i><span class="cart-badge" style="display:none;">0</span></a></li>
+        <li><a href="account.html" style="width:44px;height:44px;border-radius:var(--r-full);background:var(--surface-alt);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;"><i class="fas fa-circle-user" style="font-size:1.1rem;"></i></a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer class="section-p1">
-        <div class="col" >
-            <img width="100px" src="imgs/logo.jpg" class="logo">
-            <h4>Contact</h4>
-            <p style="color: black;font-weight: bold;"><strong>Address:</strong>IDB Bhaban, E/8-A, Dhaka 1207</p>
-            <p style="color: black;font-weight: bold;"><strong>Phone:</strong>+88 01537215709</p>
-            <p style="color: black;font-weight: bold;"><strong>Hours:</strong>10:00AM - 5:00PM Sun-Fri</p>
-            <div class="follow">
-                <h4>Follow</h4>
-                <div class="icon">
-                    <i onclick="location.href='https://in.search.yahoo.com/search?fr=mcafee&type=E211IN714G0&p=facebook';" class="fab fa-facebook-f"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=twitter&cvid=ae67788641b44ff5ada6c23b19766720&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDI1MTVqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-twitter"></i>
-                    <i onclick="location.href='https://www.bing.com/search?q=instagram+login&cvid=8f96a03ccd134c3eb8ddf98de388ca43&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg8MgYIARBFGDkyBggCEEUYOzIGCAMQRRg7MgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg1OTQwajBqMagCALACAA&FORM=ANAB01&PC=U531';" class="fab fa-instagram"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=pinterest&cvid=2eba73b5aff442238b2d7f9245aab3b1&gs_lcrp=EgZjaHJvbWUqBggEEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAuGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDM3MTNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-pinterest"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=youtube&cvid=19cb7645bf6d4d7abd30f0bfd4166528&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg8MgYIARAuGEAyBggCEEUYOTIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxBFGDwyBggIEEUYPNIBCDIzNjNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-youtube"></i>
-                </div>
-            </div>
+  <!-- Breadcrumb -->
+  <div style="padding: 16px 80px; background: white; border-bottom: 1px solid var(--border); font-size: 0.85rem; color: var(--text-muted);">
+    <a href="index.html" style="color: var(--text-muted);">Home</a>
+    <i class="fas fa-chevron-right" style="margin: 0 8px; font-size: 0.7rem;"></i>
+    <a href="Shop.html" style="color: var(--text-muted);">Shop</a>
+    <i class="fas fa-chevron-right" style="margin: 0 8px; font-size: 0.7rem;"></i>
+    <span style="color: var(--text-heading); font-weight: 600;">Napa Extend 665mg</span>
+  </div>
+
+  <!-- Product Details -->
+  <section id="prodetails" class="section-p1">
+    <div class="single-pro-image" style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; padding:40px 32px;">
+      <!-- No image â€“ clean name display -->
+      <div style="width:100%; display:flex; flex-direction:column; gap:12px;">
+        <div style="background:var(--teal-600); border-radius:14px; padding:24px; text-align:center;">
+          <div style="font-size:0.72rem;font-weight:800;color:rgba(255,255,255,0.7);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px;">
+            <i class="fas fa-capsules"></i> GSK Pharmaceuticals
+          </div>
+          <div style="font-size:1.6rem;font-weight:900;color:#fff;letter-spacing:-0.03em;line-height:1.2;">
+            Crocin Advance
+          </div>
+          <div style="font-size:0.9rem;font-weight:600;color:rgba(255,255,255,0.85);margin-top:6px;">
+            Paracetamol 500mg Tablet
+          </div>
+          <div style="margin-top:12px;">
+            <span style="background:rgba(255,255,255,0.2);color:#fff;font-size:0.72rem;font-weight:800;padding:4px 14px;border-radius:999px;letter-spacing:0.06em;">OTC â€” Over the Counter</span>
+          </div>
         </div>
-        <div class="col" style="color: black;font-weight: bold;">
-            <h4>About</h4>
-            <a href="about.html">About us</a>
-            <a href="cart.html">Delivery information</a>
-            <a href="about.html">Privacy Policy</a>
-            <a href="about.html">Terms $ Conditions</a>
-            <a href="contact.html">Contact us</a>
+        <div style="display:flex; gap:10px;">
+          <div style="flex:1;background:var(--teal-50);border:1px solid var(--teal-100);border-radius:10px;padding:12px 14px;text-align:center;">
+            <div style="font-size:0.7rem;font-weight:700;color:var(--teal-700);text-transform:uppercase;letter-spacing:0.06em;">Dosage</div>
+            <div style="font-size:1rem;font-weight:800;color:var(--slate-900);">500 mg</div>
+          </div>
+          <div style="flex:1;background:var(--blue-50);border:1px solid #BFDBFE;border-radius:10px;padding:12px 14px;text-align:center;">
+            <div style="font-size:0.7rem;font-weight:700;color:var(--blue-700);text-transform:uppercase;letter-spacing:0.06em;">Form</div>
+            <div style="font-size:1rem;font-weight:800;color:var(--slate-900);">Tablet</div>
+          </div>
+          <div style="flex:1;background:#FEF3C7;border:1px solid #FDE68A;border-radius:10px;padding:12px 14px;text-align:center;">
+            <div style="font-size:0.7rem;font-weight:700;color:#B45309;text-transform:uppercase;letter-spacing:0.06em;">Pack</div>
+            <div style="font-size:1rem;font-weight:800;color:var(--slate-900);">15 tabs</div>
+          </div>
         </div>
-        <div class="col" style="color: black;font-weight: bold;">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="cart.html">View Cart</a>
-            <a href="cart.html">My Wishlist</a>
-            <a href="cart.html">Track my order</a>
-            <a href="contact.html">Help </a>
+      </div>
+    </div>
+
+    <div class="single-pro-details">
+      <div class="pro-brand-tag">
+        <i class="fas fa-capsules"></i> GSK Pharmaceuticals Ltd.
+      </div>
+
+      <h4>Crocin Advance 500mg Tablet</h4>
+
+      <div class="star" style="margin-bottom:16px; gap:4px; font-size:0.95rem;">
+        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <span class="star-count" style="font-size:0.9rem; color:var(--text-muted); margin-left:6px;">(128 Customer Reviews)</span>
+      </div>
+
+      <h2 id="adPrice">Rs 24.00 <span style="font-size:0.9rem;color:var(--text-muted);font-weight:400;">/ strip of 10 tablets</span></h2>
+
+      <div class="qty-row">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1" max="50">
+        <button id="adCardButton" class="btn-primary">
+          <i class="fas fa-cart-plus"></i> Add to Cart
+        </button>
+      </div>
+
+      <div class="product-highlights">
+        <h5><i class="fas fa-circle-info" style="color:var(--teal-600);"></i> Key Information</h5>
+        <ul>
+          <li>Generic Name: Paracetamol BP 665mg</li>
+          <li>Form: Modified Release Bilayered Tablet</li>
+          <li>Indication: Body pain, headache, fever, osteoarthritis</li>
+          <li>Duration: Extended relief up to 8 hours</li>
+          <li>Rx Status: Over-the-Counter (OTC)</li>
+        </ul>
+      </div>
+
+      <!-- Delivery / Trust Row -->
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <div style="display:flex;align-items:center;gap:8px;font-size:0.83rem;font-weight:700;color:var(--slate-700); background:var(--surface-alt);padding:10px 16px;border-radius:var(--r-full);border:1px solid var(--border);">
+          <i class="fas fa-truck-fast" style="color:var(--teal-600);"></i> Same-Day Delivery
         </div>
-        <div class="col install" style="color: black;font-weight: bold;">
-            <h4 >Install App</h4>
-            <p style="color: black;font-weight: bold;">From App store or Google play</p>
-            <div>
-                <img width="200px" height="30px" src="imgs/features/Google-Play-App.png" alt="">
-                <img src="" alt="">
-            </div>
-            <p style="color: black;font-weight: bold;">Secured Payment Gateway</p>
-            <img src="" alt="">
+        <div style="display:flex;align-items:center;gap:8px;font-size:0.83rem;font-weight:700;color:var(--slate-700); background:var(--surface-alt);padding:10px 16px;border-radius:var(--r-full);border:1px solid var(--border);">
+          <i class="fas fa-shield-halved" style="color:var(--blue-600);"></i> 100% Genuine
         </div>
-        
-    </footer>
-    <div class="myfooter2" style="background-color: #DCDCDC ;width:100vw;height:50px ;display: flex;justify-content:center;align-items: center;">
-        <div class="copyright" >
-            <p style="color: black;font-weight: bold;">@ 2024 , A2Z Services -- Pharmacy</p>
+        <div style="display:flex;align-items:center;gap:8px;font-size:0.83rem;font-weight:700;color:var(--slate-700); background:var(--surface-alt);padding:10px 16px;border-radius:var(--r-full);border:1px solid var(--border);">
+          <i class="fas fa-rotate-left" style="color:var(--amber-500);"></i> Easy Returns
         </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-brand">
+      <div class="logo-svg-inline" style="margin-bottom:20px;">
+        <div class="logo-icon"></div>
+        <div class="logo-text-group">
+          <span class="logo-text-main">A2Z Pharmacy</span>
+          <span class="logo-text-sub" style="-webkit-text-fill-color:var(--slate-500);">Healthcare & Wellness</span>
         </div>
+      </div>
+      <div class="footer-contact">
+        <p><i class="fas fa-location-dot"></i> House 42, Road 11, Banani, Bengaluru 1213</p>
+        <p><i class="fas fa-phone"></i> 1800-000-0000 (24/7)</p>
+        <p><i class="fas fa-envelope"></i> support@a2zpharmacy.in</p>
+      </div>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="index.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Home</a>
+      <a href="Shop.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Shop Catalog</a>
+      <a href="about.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> About Us</a>
+      <a href="contact.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Contact Us</a>
+    </div>
+    <div>
+      <h4>Customer Care</h4>
+      <a href="account.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> My Account</a>
+      <a href="cart.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Shopping Cart</a>
+      <a href="payment.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Checkout</a>
+    </div>
+    <hr class="footer-divider">
+    <p class="copyright">&copy; 2026 A2Z Pharmacy. All Rights Reserved. Built with HTML5 &middot; CSS3 &middot; Vanilla JS &middot; Node.js + Express</p>
+  </footer>
+
 </body>
-</html>
+</html>
+
+
+

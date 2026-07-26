@@ -1,128 +1,86 @@
-# A2Z Pharmacy Website
+# 💊 A2Z Pharmacy — Online Healthcare & E-Pharmacy Platform
 
-## Overview
-The **A2Z Pharmacy Website** is a fully functional e-commerce platform designed for pharmacy needs. It allows users to browse products, add items to a shopping cart, make payments, and manage their accounts. The site also provides essential contact information and a detailed "About Us" section to connect with users effectively.
-
----
-
-## Features
-- **Home Page**: Welcoming users with an attractive interface.
-- **About Us**: Provides an overview of the company and its mission.
-- **Shop Page**: Displays a variety of pharmacy products available for purchase.
-- **Product Details**: Allows users to view details of individual products.
-- **Shopping Cart**: Enables users to add, view, and modify items in their cart.
-- **User Account**: Facilitates user profile management.
-- **Login and Registration**: Secure authentication for users.
-- **Contact Us**: A form and details to reach customer support.
-- **Payment Gateway**: Supports secure online payments for orders.
+A modern, responsive, full-featured E-Commerce Web Application built for online pharmacy management, medicine ordering, and healthcare services. Built with pure **HTML5, Modern CSS3, Vanilla JavaScript (ES6)**, and hosted via a **Node.js Express** server.
 
 ---
 
-## File Structure
-### HTML Files
-- **`index.html`**: Homepage of the website.
-- **`about.html`**: Information about A2Z Pharmacy.
-- **`account.html`**: User profile management page.
-- **`cart.html`**: Shopping cart interface.
-- **`contact.html`**: Customer support contact page.
-- **`contactus.html`**: Detailed contact form for inquiries.
-- **`login.html`**: User login page.
-- **`login2.html`**: Alternative login interface.
-- **`payment.html`**: Payment processing page.
-- **`Shop.html`**: Product listing and browsing.
-- **`sproduct.html`**: Single product details.
+## 🌟 Key Features
 
-### JavaScript Files
-- **`main.js`**: Core JavaScript for dynamic website functionality.
-- **`script.js`**: Additional script handling UI interactions.
-- **`sproduct.js`**: Script for single product functionality.
-- **`server.js`**: Backend logic for the website.
-
-### CSS Files
-- **`style.css`**: Styling and layout for the website.
-
-### Image Files
-- **`about.jpg`**: Image used on the About Us page.
-- **`account.png`**: User account image.
-- **`back-img.jpg`**: Background image.
-- **`card_img.png`**: Image used in payment-related pages.
-- **`contact.png`**: Contact page image.
-- **`contactuspharmacyimg.jpeg`**: Pharmacy-related image for the Contact Us page.
-- **`logo.jpg`**: Website logo.
-- **`newbackground.jpg`**: Additional background image.
-- **`shopping-cart.png`**: Shopping cart icon.
-- **`th.jpeg`**: Placeholder image for testing.
-- **`userprofile.jpeg`**: Profile image for users.
-
-### Configuration Files
-- **`package.json`**: Node.js project dependencies and scripts.
-- **`package-lock.json`**: Locked versions of dependencies.
+- ** Modern & Responsive UI/UX**: Designed with modern UI standards (custom CSS design system, typography, glassmorphism headers, responsive grids, and micro-interactions).
+- ** Dynamic Product Catalog**: Browse prescription & OTC medicines, health supplements, and medical devices. Includes live real-time search & category pill filters (OTC, Prescription, Vitamins, Devices).
+- ** Interactive Shopping Cart**: Client-side cart persistence powered by `localStorage`, real-time price & quantity recalculations, and coupon promo integration (`HEALTH20`).
+- ** Multi-Step Checkout & Payment**: Integrated shipping details form, payment method selector (UPI, Credit/Debit Card, Net Banking, Cash on Delivery), order summary card, and instant confirmation modal.
+- ** Patient Account Dashboard**: View recent orders, active prescriptions, shipping addresses, and account details.
+- ** Pharmacy Services**: Prescription upload workflow, 24/7 pharmacist helpline integration, and CDSCO compliance details.
 
 ---
 
-## Prerequisites
-- **Node.js** (for running the server-side logic)
-- A modern web browser for testing and using the website.
+## 🛠️ Technology Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | HTML5, Modern CSS3 (Vanilla Design System), JavaScript (ES6) |
+| **Icons & Fonts** | FontAwesome 6, Google Fonts (*Plus Jakarta Sans*) |
+| **Backend / Server** | Node.js, Express.js |
+| **Storage** | Browser `localStorage` (Client-side Cart & Session State) |
 
 ---
 
-## Installation
-1. Clone the repository:
+## 📁 Project Structure
+
+```
+Pharmacy_website/
+├── index.html         # Homepage (Centered Hero, Features, Bestsellers, Banner)
+├── Shop.html          # Full Medicine Catalog with Live Search & Filtering
+├── sproduct.html      # Product Detail Page (Dosage, Pack Size, Quantity selector)
+├── cart.html          # Shopping Cart & Order Summary with Promo Discount
+├── payment.html       # Checkout & Multi-Method Payment Gateways
+├── account.html       # Patient Profile & Order History Dashboard
+├── about.html         # About Us & CDSCO Licensing Information
+├── contact.html       # Contact Us, 24/7 Helpline & Inquiry Form
+├── login.html         # User Authentication (Sign In / Register)
+├── style.css          # Custom CSS Design System, Variables & Responsive Utilities
+├── script.js         # Interactive Logic (Cart state, Search, Toast Notifications)
+├── server.js          # Express Server for hosting static files
+└── package.json       # Project dependencies and script configurations
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation & Setup
+
+1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/DPavanKrishna/Pharmacy_website.git
+   cd Pharmacy_website
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd a2z-pharmacy
-   ```
-3. Install dependencies:
+
+2. **Install Dependencies**
    ```bash
    npm install
    ```
 
----
-
-## Running the Project
-1. Start the server:
+3. **Start the Application**
    ```bash
-   node server.js
+   npm run serve
    ```
-2. Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
+   *(or `node server.js`)*
+
+4. **Access the Website**
+   Open your browser and navigate to:
+   👉 **`http://localhost:8080`**
 
 ---
 
-## Usage
-1. **Browse Products**: Navigate to the **Shop** page and view available products.
-2. **Add to Cart**: Select items and add them to your shopping cart.
-3. **Checkout**: Use the **Payment** page to securely pay for your items.
-4. **Manage Account**: Use the **Account** page to update your details.
-5. **Contact Support**: Use the **Contact Us** form for inquiries.
+## 🛒 Demo Coupon Code
+- Apply promo code **`HEALTH20`** in the Shopping Cart page for **10% OFF** your total order!
 
 ---
 
-## Contributing
-If you'd like to contribute:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes and push them:
-   ```bash
-   git push origin feature-name
-   ```
-4. Submit a pull request.
-
-
----
-
-## Acknowledgments
-- **Images**: Credits to their respective creators.
-- **Libraries**: Utilized third-party libraries specified in `package.json`.
-
----
-
-For any issues or suggestions, feel free to contact us via the **Contact Us** page or raise an issue in the repository.
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).

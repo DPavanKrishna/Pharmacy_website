@@ -1,276 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A2Z PHARMACY</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A2Z Pharmacy | Genuine Medicines & Online Healthcare India</title>
+  <meta name="description" content="Order 100% genuine prescription & OTC medicines, vitamins, and healthcare devices online with fast 24/7 doorstep delivery across India.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <section id="header">
-        <a href="index.html"><img  style="border-radius: 50%;width: 150px;" src="imgs/logo.jpg" class="" alt=""></a>
-        
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="Shop.html">Shop</a></li>         
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><img width="20px" src="imgs/shopping-cart.png" class="cartlogo" alt="cartlogoimg"></a></li>
-                <li><a href="account.html"><img width="30px" src="./imgs/account.png" ></a></li>
-            </ul>
-        </div>
-    </section>
 
-    <section id="hero">
-        <h4>Big-Offer</h4>
-        <h2>Super value deals</h2>
-        <h1>On all services</h1>
-        <p>Save more with coupons & up to 70% off!!!</p>
-        <button onclick="location.href='shop.html'">Buy now</button>
-    </section>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <span><i class="fas fa-truck-fast"></i> Free Delivery on orders above Rs 499</span>
+    <span class="badge">NEW: 10% OFF on First Order</span>
+    <span><i class="fas fa-user-doctor"></i> Registered Pharmacist Available 24/7</span>
+  </div>
 
-    <section id="feature" class="section-p1">
-        <div class="fe-box" id="fe-box1" style="padding: 68px 25px;" onclick="location.href='cart.html';">
-            <img width="200px" src="imgs/features/free-shipping.jpg" alt="free-shipping img">
-            <h6 >Free shipping</h6>
-        </div>
+  <!-- Header -->
+  <header id="header">
+    <a href="index.html" class="logo-svg-inline">
+      <div class="logo-icon"></div>
+      <div class="logo-text-group">
+        <span class="logo-text-main">A2Z Pharmacy</span>
+        <span class="logo-text-sub">Healthcare & Wellness</span>
+      </div>
+    </a>
 
-        <div class="fe-box" onclick="location.href='contact.html';">
-            <img width="200px" src="imgs/features/customerS.webp" alt="customer-care img">
-            <h6>Customer support</h6>
-        </div>
+    <nav>
+      <ul id="navbar">
+        <li><a class="active" href="index.html"><i class="fas fa-house"></i> <span>Home</span></a></li>
+        <li><a href="Shop.html"><i class="fas fa-store"></i> <span>Shop</span></a></li>
+        <li><a href="about.html"><i class="fas fa-circle-info"></i> <span>About</span></a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        <li>
+          <a href="cart.html" class="cart-icon-wrapper">
+            <i class="fas fa-bag-shopping" style="font-size:1.1rem;"></i>
+            <span class="cart-badge" style="display:none;">0</span>
+          </a>
+        </li>
+        <li>
+          <a href="account.html" style="width:44px;height:44px;border-radius:var(--r-full);background:var(--surface-alt);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;">
+            <i class="fas fa-circle-user" style="font-size:1.1rem;"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-        <div class="fe-box" onclick="location.href='shop.html';">
-            <img width="200px" src="./imgs/features/online-order-system-line-icon-vector.jpg" alt="online-order img">
-            <h6>Online order</h6>
-        </div>
+  <!-- ===== SIMPLE CENTERED HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-pill">
+        <span class="dot"></span>
+        India's Trusted Licensed Online Pharmacy
+      </div>
 
-    </section>
+      <h1>
+        Your Health, <span class="gradient-text">Delivered Fast</span>
+      </h1>
 
-    <section id="product1" class="section-p1">
-        <h2> Our products</h2>
-        <p>Seasonal service demand is high</p>
-        <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
-                <img src="imgs/products/Napa.jpeg" alt="">
-                <div class="napa">
-                    <span>Beximco Pharmaceuticals Ltd.</span>
-                    <h5>Napa Extend Tablet</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>MRP:24tk</h4>
-                </div>
-                <a href="Shop.html"><i class="fas fa-shopping-cart"></i></a>
-            </div>
-        </div>
-    </section>
+      <p>Order genuine prescription medicines, vitamins &amp; healthcare devices &mdash; delivered safely to your doorstep across India.</p>
 
-    <section id="banner" class="section-m1">
-        <h2>More ways to spend less</h2>
-        <h4>From coupons to Prime member savings, we work hard to find you low prices.</h4>
-        <button class="normal" onclick="location.href='shop.html';">Explore more</button>
-    </section>
+      <div class="hero-cta-row">
+        <button class="btn-primary" onclick="location.href='Shop.html'">
+          <i class="fas fa-store"></i> Shop Now
+        </button>
+        <button class="btn-secondary" onclick="location.href='contact.html'">
+          <i class="fas fa-file-prescription"></i> Upload Prescription
+        </button>
+      </div>
+    </div>
+  </section>
 
-    <section id="sm-banner" class="section-p1">
-        <div class="banner-box">
-            <h4>Great Offer</h4>
-            <h2>Buy 1 Get 1 Free</h2>
-            <span>The Best Offer </span>
-           
-        </div>
-        <div class="banner-box">
-            <h4>Great Offer</h4>
-            <h2>Buy 2 Get 1 Free</h2>
-            <span>The Best Offer </span>
-           
-        </div>
-    </section>
+  <!-- Features -->
+  <div id="feature" class="section-p1">
+    <div class="fe-box" onclick="location.href='Shop.html'">
+      <div class="fe-box-icon" style="background:#DCFCE7;color:#15803D;">
+        <i class="fas fa-truck-fast"></i>
+      </div>
+      <h6>Free Express Delivery</h6>
+      <p>Free doorstep delivery across India on orders above Rs 499, every day.</p>
+    </div>
 
-    <section id="newsletter" class="section-p1">
-        <div class="newstext">
-            <h4>Sign up for Updates</h4>
-            <p style="color: black;">Get instant email updates about our Pharmacy<p>
-        </div>
-        <div class="form" onclick="location.href='login.html'">
-            <input type="text" placeholder="Your email Address">
-            <button class="normal" >Sign up</button>
-        </div>
-</section>
+    <div class="fe-box" onclick="location.href='contact.html'">
+      <div class="fe-box-icon" style="background:#EFF6FF;color:#1D4ED8;">
+        <i class="fas fa-user-doctor"></i>
+      </div>
+      <h6>24/7 Pharmacist Help</h6>
+      <p>Talk to a registered Indian pharmacist any time for dosage guidance.</p>
+    </div>
 
-<!-- Footer -->
+    <div class="fe-box" onclick="location.href='Shop.html'">
+      <div class="fe-box-icon" style="background:#FEF3C7;color:#B45309;">
+        <i class="fas fa-prescription-bottle-medical"></i>
+      </div>
+      <h6>Auto Refill Reminders</h6>
+      <p>Never miss your medicines &mdash; set monthly reminders for automatic refills.</p>
+    </div>
+  </div>
 
-    <footer class="section-p1">
-        <div class="col" >
-            <img width="100px" src="imgs/logo.jpg" class="logo">
-            <h4>Contact</h4>
-            <p style="color: black;font-weight: bold;"><strong>Address:</strong>IDB Bhaban, E/8-A, Dhaka 1207</p>
-            <p style="color: black;font-weight: bold;"><strong>Phone:</strong>+88 01537215709</p>
-            <p style="color: black;font-weight: bold;"><strong>Hours:</strong>10:00AM - 5:00PM Sun-Fri</p>
-            <div class="follow">
-                <h4>Follow</h4>
-                <div class="icon">
-                    <i onclick="location.href='https://in.search.yahoo.com/search?fr=mcafee&type=E211IN714G0&p=facebook';" class="fab fa-facebook-f"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=twitter&cvid=ae67788641b44ff5ada6c23b19766720&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDI1MTVqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-twitter"></i>
-                    <i onclick="location.href='https://www.bing.com/search?q=instagram+login&cvid=8f96a03ccd134c3eb8ddf98de388ca43&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg8MgYIARBFGDkyBggCEEUYOzIGCAMQRRg7MgYIBBBFGDsyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg1OTQwajBqMagCALACAA&FORM=ANAB01&PC=U531';" class="fab fa-instagram"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=pinterest&cvid=2eba73b5aff442238b2d7f9245aab3b1&gs_lcrp=EgZjaHJvbWUqBggEEC4YQDIGCAAQRRg5MgYIARAuGEAyBggCEC4YQDIGCAMQABhAMgYIBBAuGEAyBggFEAAYQDIGCAYQABhAMgYIBxAAGEAyBggIEAAYQNIBCDM3MTNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-pinterest"></i>
-                    <i onclick="location.href='https://www.bing.com/search?pglt=41&q=youtube&cvid=19cb7645bf6d4d7abd30f0bfd4166528&gs_lcrp=EgZjaHJvbWUqBggBEC4YQDIGCAAQRRg8MgYIARAuGEAyBggCEEUYOTIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxBFGDwyBggIEEUYPNIBCDIzNjNqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531';" class="fab fa-youtube"></i>
-                </div>
-            </div>
+  <!-- Products Section -->
+  <section id="product1" class="section-p1">
+    <div class="section-header">
+      <div class="label"><i class="fas fa-star"></i> Bestsellers</div>
+      <h2>Popular Healthcare Essentials</h2>
+      <p>Top-rated medicines &amp; OTC products delivered to your door</p>
+    </div>
+
+    <div class="pro-container">
+
+      <div class="pro" onclick="location.href='sproduct.html'">
+        <div class="pro-img-wrapper">
+          <span class="pro-badge otc">OTC</span>
+          <div class="pro-name-placeholder" style="--clr:#DCFCE7;--txt:#065F46;">
+            <i class="fas fa-pills"></i>
+            <span>Crocin Advance</span>
+          </div>
         </div>
-        <div class="col" style="color: black;font-weight: bold;">
-            <h4>About</h4>
-            <a href="about.html">About us</a>
-            <a href="cart.html">Delivery information</a>
-            <a href="about.html">Privacy Policy</a>
-            <a href="about.html">Terms $ Conditions</a>
-            <a href="contact.html">Contact us</a>
+        <div class="pro-info">
+          <span class="brand">GSK Pharmaceuticals</span>
+          <h5>Crocin Advance 500mg Tablet</h5>
+          <div class="star">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <span class="star-count">(312)</span>
+          </div>
         </div>
-        <div class="col" style="color: black;font-weight: bold;">
-            <h4>My Account</h4>
-            <a href="#">Sign In</a>
-            <a href="cart.html">View Cart</a>
-            <a href="cart.html">My Wishlist</a>
-            <a href="cart.html">Track my order</a>
-            <a href="contact.html">Help </a>
+        <div class="pro-footer">
+          <span class="price">Rs 24.50</span>
+          <button class="btn-cart-add" title="Add to cart" onclick="event.stopPropagation()">
+            <i class="fas fa-cart-plus"></i>
+          </button>
         </div>
-        <div class="col install" style="color: black;font-weight: bold;">
-            <h4 >Install App</h4>
-            <p style="color: black;font-weight: bold;">From App store or Google play</p>
-            <div>
-                <img width="200px" height="30px" src="imgs/features/Google-Play-App.png" alt="">
-                <img src="" alt="">
-            </div>
-            <p style="color: black;font-weight: bold;">Secured Payment Gateway</p>
-            <img src="" alt="">
+      </div>
+
+      <div class="pro" onclick="location.href='sproduct.html'">
+        <div class="pro-img-wrapper">
+          <span class="pro-badge rx">Rx</span>
+          <div class="pro-name-placeholder" style="--clr:#DBEAFE;--txt:#1E40AF;">
+            <i class="fas fa-capsules"></i>
+            <span>Pan 40mg</span>
+          </div>
         </div>
-        
-    </footer>
-    <div class="myfooter2" style="background-color: #DCDCDC ;width:100vw;height:50px ;display: flex;justify-content:center;align-items: center;">
-        <div class="copyright" >
-            <p style="color: black;font-weight: bold;">@ 2024 , A2Z Services -- Pharmacy</p>
+        <div class="pro-info">
+          <span class="brand">Alkem Laboratories</span>
+          <h5>Pan 40mg Capsule</h5>
+          <div class="star">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            <span class="star-count">(198)</span>
+          </div>
         </div>
+        <div class="pro-footer">
+          <span class="price">Rs 65.00</span>
+          <button class="btn-cart-add" title="Add to cart" onclick="event.stopPropagation()">
+            <i class="fas fa-cart-plus"></i>
+          </button>
         </div>
-    <script src="script.js"></script>
+      </div>
+
+      <div class="pro" onclick="location.href='sproduct.html'">
+        <div class="pro-img-wrapper">
+          <span class="pro-badge otc">OTC</span>
+          <div class="pro-name-placeholder" style="--clr:#FEF3C7;--txt:#92400E;">
+            <i class="fas fa-lemon"></i>
+            <span>Limcee Vit-C</span>
+          </div>
+        </div>
+        <div class="pro-info">
+          <span class="brand">Abbott India</span>
+          <h5>Limcee Vitamin C 500mg</h5>
+          <div class="star">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <span class="star-count">(421)</span>
+          </div>
+        </div>
+        <div class="pro-footer">
+          <span class="price">Rs 18.00</span>
+          <button class="btn-cart-add" title="Add to cart" onclick="event.stopPropagation()">
+            <i class="fas fa-cart-plus"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="pro" onclick="location.href='sproduct.html'">
+        <div class="pro-img-wrapper">
+          <span class="pro-badge" style="background:#F5F3FF;color:#6D28D9;border-color:#DDD6FE;">Device</span>
+          <div class="pro-name-placeholder" style="--clr:#F0F9FF;--txt:#0284C7;">
+            <i class="fas fa-temperature-half"></i>
+            <span>Omron MC-246</span>
+          </div>
+        </div>
+        <div class="pro-info">
+          <span class="brand">Omron Healthcare</span>
+          <h5>Digital Thermometer MC-246</h5>
+          <div class="star">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><i class="far fa-star"></i>
+            <span class="star-count">(89)</span>
+          </div>
+        </div>
+        <div class="pro-footer">
+          <span class="price">Rs 349.00</span>
+          <button class="btn-cart-add" title="Add to cart" onclick="event.stopPropagation()">
+            <i class="fas fa-cart-plus"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Promo Banner -->
+  <div id="banner">
+    <h4>SPECIAL SEASONAL OFFER</h4>
+    <h2>Up to <span>30% OFF</span> on Vitamins &amp; Supplements</h2>
+    <button class="btn-primary" onclick="location.href='Shop.html'">
+      Browse All Products <i class="fas fa-arrow-right"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-brand">
+      <div class="logo-svg-inline" style="margin-bottom:20px;">
+        <div class="logo-icon"></div>
+        <div class="logo-text-group">
+          <span class="logo-text-main">A2Z Pharmacy</span>
+          <span class="logo-text-sub" style="-webkit-text-fill-color:var(--slate-500);color:var(--slate-500);">Healthcare & Wellness</span>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <p><i class="fas fa-location-dot"></i> 12, MG Road, Bengaluru, Karnataka &ndash; 560001</p>
+        <p><i class="fas fa-phone"></i> 1800-000-0000 (Toll Free, 24/7)</p>
+        <p><i class="fas fa-envelope"></i> support@a2zpharmacy.in</p>
+      </div>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="index.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Home</a>
+      <a href="Shop.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Shop Catalog</a>
+      <a href="about.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> About Us</a>
+      <a href="contact.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Contact Us</a>
+    </div>
+
+    <div>
+      <h4>Customer Care</h4>
+      <a href="account.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> My Account</a>
+      <a href="cart.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Shopping Cart</a>
+      <a href="payment.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Checkout</a>
+      <a href="login.html"><i class="fas fa-chevron-right" style="font-size:0.7rem;"></i> Sign In</a>
+    </div>
+
+    <hr class="footer-divider">
+    <p class="copyright">&copy; 2026 A2Z Pharmacy India. All Rights Reserved. | CDSCO Licensed | Built with HTML5 &middot; CSS3 &middot; Vanilla JS &middot; Node.js + Express</p>
+  </footer>
+
 </body>
 </html>

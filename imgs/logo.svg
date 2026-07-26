@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" width="280" height="64">
+  <defs>
+    <linearGradient id="crossGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+  <!-- Pill badge background -->
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#crossGrad)"/>
+  <!-- Medical cross -->
+  <rect x="28" y="14" width="8" height="36" rx="4" fill="white"/>
+  <rect x="14" y="28" width="36" height="8" rx="4" fill="white"/>
+  <!-- A2Z text -->
+  <text x="74" y="34" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="26" fill="url(#textGrad)" letter-spacing="-1">A2Z</text>
+  <!-- PHARMACY text -->
+  <text x="74" y="52" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="13" fill="#334155" letter-spacing="3">PHARMACY</text>
+  <!-- Small dot accent -->
+  <circle cx="143" cy="52" r="2.5" fill="#0D9488"/>
+</svg>
